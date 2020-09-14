@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(198, 245, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+}
+#navbar header{
+    text-align: center;
+}
+#navbar ul{
+    background-color: rgb(213, 248, 196);
+    border: 1px solid;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid rgb(51, 50, 50); 
+    border-bottom: 3px solid rgb(51, 50, 50);
+    
+}
+#navbar li{
+    list-style: none;
+    width: 100%;
+    border-top: 1px  rgb(37, 37, 37); 
+    border-bottom: 1px solid rgb(51, 50, 50);
+    padding: 0;
+    margin: 0;
+}
+#navbar a{
+    text-decoration: none;
+    display: block;
+    color: rgb(51, 50, 50);
+    padding: 10px 30px;
+}
+
+
+code{
+    background-color: #f7f7f7;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    text-align: left;
+    max-width: 90%;
+    padding: 10px 20px;
+    margin: 2em auto 2em auto;
+   
+
+}
+
+/* for screen size greater than 814px*/
+@media (min-width:814px){
+    body{
+        display: flex;
+    }
+    
+    #main-doc{
+        padding-left: 20em;
+        overflow: auto;
+    }
+    #navbar ul{
+        border: 1px solid;
+        height: 35em;  
+        border-left: 1px solid;
+    }
+    #navbar{
+        position: fixed;
+        border-right: 2px solid rgb(141, 140, 140);
+        width: 18em;
+    }
+}
